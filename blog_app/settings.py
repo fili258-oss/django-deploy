@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-o68!lm7*bue%ci025g9gd8-m*nv6)6xpmdzxqicy+go@2_0m7k
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['djangoaplication.azurewebsites.net','http://127.0.0.1:8000/']
+ALLOWED_HOSTS = ['djangoaplication.azurewebsites.net', 'http://127.0.0.1:8000/']
 
 
 # Application definition
@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'blogs_app'
+    'blogs_app',
+    'bootstrap5'
 ]
 
 MIDDLEWARE = [
